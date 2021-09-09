@@ -2,15 +2,15 @@
 
 addpath(genpath('C:\Users\danie\Documents\GitHub\Kilosort')) % path to kilosort folder
 addpath('C:\Users\danie\Documents\GitHub\npy-matlab') % for converting to Phy
-rootZ = 'G:\Spikes\Sample'; % the raw data binary file is in this folder
-rootH = 'H:\'; % path to temporary binary file (same size as data, should be on fast SSD)
-pathToYourConfigFile = 'D:\GitHub\Kilosort2\configFiles'; % take from Github folder and put it somewhere else (together with the master_file)
-chanMapFile = 'neuropixPhase3A_kilosortChanMap.mat';
+rootZ = 'C:\Users\danie\Documents\GitHub\Kilosort'; % the raw data binary file is in this folder
+rootH = 'D:\'; % path to temporary binary file (same size as data, should be on fast SSD)
+pathToYourConfigFile = 'C:\Users\danie\Documents\GitHub\Kilosort\my_kilosort'; % take from Github folder and put it somewhere else (together with the master_file)
+chanMapFile = 'NeuronexusA4x8ChanMap.mat';
 
 ops.trange    = [0 Inf]; % time range to sort
-ops.NchanTOT  = 385; % total number of channels in your recording
+ops.NchanTOT  = 32; % total number of channels in your recording
 
-run(fullfile(pathToYourConfigFile, 'configFile384.m'))
+run(fullfile(pathToYourConfigFile, 'StandardConfig_MOVEME.m'))
 ops.fproc   = fullfile(rootH, 'temp_wh.dat'); % proc file on a fast SSD
 ops.chanMap = fullfile(pathToYourConfigFile, chanMapFile);
 %% this block runs all the steps of the algorithm

@@ -1,14 +1,14 @@
-ops.chanMap             = 'D:\GitHub\KiloSort2\configFiles\neuropixPhase3A_kilosortChanMap.mat';
+ops.chanMap             = 'C:\Users\danie\Documents\GitHub\Kilosort\configFiles\NeuronexusA4x8ChanMap.mat';
 % ops.chanMap = 1:ops.Nchan; % treated as linear probe if no chanMap file
 
 % sample rate
-ops.fs = 30000;  
+ops.fs = 2.441406250000000e+04;  
 
 % frequency for high pass filtering (150)
-ops.fshigh = 150;   
+ops.fshigh = 300;   
 
 % minimum firing rate on a "good" channel (0 to skip)
-ops.minfr_goodchannels = 0.1; 
+ops.minfr_goodchannels = 0; 
 
 % threshold on projections (like in Kilosort1, can be different for last pass like [10 4])
 ops.Th = [10 4];  

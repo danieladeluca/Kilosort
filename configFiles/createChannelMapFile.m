@@ -2,14 +2,14 @@
 
 Nchannels = 32;
 connected = true(Nchannels, 1);
-chanMap   = 1:Nchannels;
+chanMap   = [18 5 2 7 23 17 21 19 3 24 1 8 4 22 6 20 26 13 10 15 28 14 30 12 11 32 9 16 31 25 29 27];
 chanMap0ind = chanMap - 1;
-xcoords   = ones(Nchannels,1);
-ycoords   = [1:Nchannels]';
-kcoords   = ones(Nchannels,1); % grouping of channels (i.e. tetrode groups)
+xcoords   = [zeros(1,8) 200*ones(1,8) 400*ones(1,8) 600*ones(1,8)];
+ycoords   = repmat([0 100 200 300 400 500 600 700], 1, 4);
+kcoords   = [ones(1,8) 2*ones(1,8) 3*ones(1,8) 4*ones(1,8)]; % grouping of channels (i.e. tetrode groups)
 
-fs = 25000; % sampling frequency
-save('C:\DATA\Spikes\20150601_chan32_4_900s\chanMap.mat', ...
+fs = 2.441406250000000e+04; % sampling frequency
+save('C:\Users\danie\Documents\GitHub\Kilosort\configFiles\NeuronexusA4x8ChanMap.mat', ...
     'chanMap','connected', 'xcoords', 'ycoords', 'kcoords', 'chanMap0ind', 'fs')
 
 %%

@@ -1,0 +1,582 @@
+[90m11:49:22.008 [D] context:80           Create cache directory `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy`.[0m
+[90m11:49:22.008 [D] context:80           Create cache directory `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy`.[0m
+[90m11:49:22.038 [D] context:100          Initialize joblib cache dir at `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy`.[0m
+[90m11:49:22.038 [D] context:100          Initialize joblib cache dir at `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy`.[0m
+[90m11:49:22.038 [D] context:101          Reducing the size of the cache if needed.[0m
+[90m11:49:22.038 [D] context:101          Reducing the size of the cache if needed.[0m
+[90m11:49:22.043 [D] base:102             Add filter `high_pass`.[0m
+[90m11:49:22.043 [D] base:102             Add filter `high_pass`.[0m
+[90m11:49:22.044 [D] config:70            Creating default phy config file at `C:\Users\danie\.phy\phy_config.py`.[0m
+[90m11:49:22.044 [D] config:70            Creating default phy config file at `C:\Users\danie\.phy\phy_config.py`.[0m
+[90m11:49:22.044 [D] config:31            Load config file `C:\Users\danie\.phy\phy_config.py`.[0m
+[90m11:49:22.044 [D] config:31            Load config file `C:\Users\danie\.phy\phy_config.py`.[0m
+[90m11:49:22.048 [D] plugin:145           Loading 0 plugins.[0m
+[90m11:49:22.048 [D] plugin:145           Loading 0 plugins.[0m
+[90m11:49:22.051 [D] context:209          The file `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy\new_cluster_id.pkl` doesn't exist.[0m
+[90m11:49:22.051 [D] context:209          The file `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy\new_cluster_id.pkl` doesn't exist.[0m
+[90m11:49:22.051 [D] context:209          The file `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy\spikes_per_cluster.pkl` doesn't exist.[0m
+[90m11:49:22.051 [D] context:209          The file `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy\spikes_per_cluster.pkl` doesn't exist.[0m
+[90m11:49:22.051 [D] clustering:237       Recompute spikes_per_cluster manually: this might take a while.[0m
+[90m11:49:22.051 [D] clustering:237       Recompute spikes_per_cluster manually: this might take a while.[0m
+[90m11:49:22.054 [D] context:185          Save data to `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy\spikes_per_cluster.pkl`.[0m
+[90m11:49:22.054 [D] context:185          Save data to `C:\Users\danie\Documents\GitHub\Kilosort\sorting_001\.phy\spikes_per_cluster.pkl`.[0m
+[90m11:49:22.060 [D] gui:463              Creating GUI.[0m
+[90m11:49:22.060 [D] gui:463              Creating GUI.[0m
+[90m11:49:22.065 [D] state:178            The GUI state file `C:\Users\danie\.phy\TemplateGUI\state.json` doesn't exist, creating a default one...[0m
+[90m11:49:22.065 [D] state:178            The GUI state file `C:\Users\danie\.phy\TemplateGUI\state.json` doesn't exist, creating a default one...[0m
+[0m11:49:22.065 [I] state:180            Copied c:\users\danie\anaconda3\envs\phy2\lib\site-packages\phy\apps\template\static\state.json to C:\Users\danie\.phy\TemplateGUI\state.json.[0m
+[0m11:49:22.065 [I] state:180            Copied c:\users\danie\anaconda3\envs\phy2\lib\site-packages\phy\apps\template\static\state.json to C:\Users\danie\.phy\TemplateGUI\state.json.[0m
+[90m11:49:22.066 [D] state:46             Load C:\Users\danie\.phy\TemplateGUI\state.json for GUIState.[0m
+[90m11:49:22.066 [D] state:46             Load C:\Users\danie\.phy\TemplateGUI\state.json for GUIState.[0m
+[90m11:49:22.531 [D] gui:718              Add view ClusterView to GUI.[0m
+[90m11:49:22.531 [D] gui:718              Add view ClusterView to GUI.[0m
+[90m11:49:22.730 [D] gui:718              Add view SimilarityView to GUI.[0m
+[90m11:49:22.730 [D] gui:718              Add view SimilarityView to GUI.[0m
+[90m11:49:22.833 [D] gui:718              Add view WaveformView to GUI.[0m
+[90m11:49:22.833 [D] gui:718              Add view WaveformView to GUI.[0m
+[90m11:49:22.836 [D] base:334             Set state for WaveformView.[0m
+[90m11:49:22.836 [D] base:334             Set state for WaveformView.[0m
+[90m11:49:22.847 [D] gui:718              Add view CorrelogramView to GUI.[0m
+[90m11:49:22.847 [D] gui:718              Add view CorrelogramView to GUI.[0m
+[90m11:49:22.848 [D] base:334             Set state for CorrelogramView.[0m
+[90m11:49:22.848 [D] base:334             Set state for CorrelogramView.[0m
+[90m11:49:22.868 [D] gui:718              Add view ISIView to GUI.[0m
+[90m11:49:22.868 [D] gui:718              Add view ISIView to GUI.[0m
+[90m11:49:22.870 [D] base:334             Set state for ISIView.[0m
+[90m11:49:22.870 [D] base:334             Set state for ISIView.[0m
+[33m11:49:22.871 [W] gui:671              Could not create view FeatureView.[0m
+[33m11:49:22.871 [W] gui:671              Could not create view FeatureView.[0m
+[90m11:49:22.889 [D] gui:718              Add view AmplitudeView to GUI.[0m
+[90m11:49:22.889 [D] gui:718              Add view AmplitudeView to GUI.[0m
+[90m11:49:22.891 [D] base:334             Set state for AmplitudeView.[0m
+[90m11:49:22.891 [D] base:334             Set state for AmplitudeView.[0m
+[90m11:49:22.910 [D] gui:718              Add view FiringRateView to GUI.[0m
+[90m11:49:22.910 [D] gui:718              Add view FiringRateView to GUI.[0m
+[90m11:49:22.911 [D] base:334             Set state for FiringRateView.[0m
+[90m11:49:22.911 [D] base:334             Set state for FiringRateView.[0m
+[33m11:49:22.914 [W] gui:671              Could not create view TraceView.[0m
+[33m11:49:22.914 [W] gui:671              Could not create view TraceView.[0m
+[90m11:49:22.927 [D] gui:718              Add view ProbeView to GUI.[0m
+[90m11:49:22.927 [D] gui:718              Add view ProbeView to GUI.[0m
+[90m11:49:22.929 [D] base:334             Set state for ProbeView.[0m
+[90m11:49:22.929 [D] base:334             Set state for ProbeView.[0m
+[33m11:49:22.930 [W] gui:671              Could not create view TemplateFeatureView.[0m
+[33m11:49:22.930 [W] gui:671              Could not create view TemplateFeatureView.[0m
+[90m11:49:22.979 [D] gui:718              Add view ClusterScatterView to GUI.[0m
+[90m11:49:22.979 [D] gui:718              Add view ClusterScatterView to GUI.[0m
+[90m11:49:22.980 [D] base:334             Set state for ClusterScatterView.[0m
+[90m11:49:22.980 [D] base:334             Set state for ClusterScatterView.[0m
+[90m11:49:22.980 [D] base:490             Set color scheme to firing_rate.[0m
+[90m11:49:22.980 [D] base:490             Set color scheme to firing_rate.[0m
+[90m11:49:22.981 [D] base:1623            Adding default color schemes to ClusterScatterView.[0m
+[90m11:49:22.981 [D] base:1623            Adding default color schemes to ClusterScatterView.[0m
+[90m11:49:23.100 [D] gui:519              Load the geometry state.[0m
+[90m11:49:23.100 [D] gui:519              Load the geometry state.[0m
+[90m11:50:44.063 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:50:44.063 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:50:49.856 [D] supervisor:813       Clusters selected: [34] (20)[0m
+[90m11:50:49.856 [D] supervisor:813       Clusters selected: [34] (20)[0m
+[90m11:50:56.575 [D] supervisor:813       Clusters selected: [32] (14)[0m
+[90m11:50:56.575 [D] supervisor:813       Clusters selected: [32] (14)[0m
+[90m11:51:18.039 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:51:18.039 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:51:22.528 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m11:51:22.528 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m11:51:26.479 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m11:51:26.479 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m11:51:30.168 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m11:51:30.168 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m11:51:34.119 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:51:34.119 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:51:35.328 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m11:51:35.328 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m11:51:36.679 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m11:51:36.679 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m11:51:38.303 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m11:51:38.303 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m11:51:39.415 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m11:51:39.415 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m11:51:40.791 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m11:51:40.791 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m11:51:41.935 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m11:51:41.935 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m11:51:44.871 [D] supervisor:813       Clusters selected: [29] (18)[0m
+[90m11:51:44.871 [D] supervisor:813       Clusters selected: [29] (18)[0m
+[90m11:51:45.871 [D] supervisor:813       Clusters selected: [28] (13)[0m
+[90m11:51:45.871 [D] supervisor:813       Clusters selected: [28] (13)[0m
+[90m11:51:47.359 [D] supervisor:813       Clusters selected: [26] (15)[0m
+[90m11:51:47.359 [D] supervisor:813       Clusters selected: [26] (15)[0m
+[90m11:51:48.495 [D] supervisor:813       Clusters selected: [6] (32)[0m
+[90m11:51:48.495 [D] supervisor:813       Clusters selected: [6] (32)[0m
+[90m11:51:50.926 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m11:51:50.926 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m11:51:50.928 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:51:50.928 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:51:53.254 [D] cluscatter:368       Click on cluster 27 with button Left.[0m
+[90m11:51:53.254 [D] cluscatter:368       Click on cluster 27 with button Left.[0m
+[90m11:51:53.256 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m11:51:53.256 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m11:51:57.943 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m11:51:57.943 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m11:51:57.944 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:51:57.944 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:51:58.598 [D] cluscatter:368       Click on cluster 24 with button Left.[0m
+[90m11:51:58.598 [D] cluscatter:368       Click on cluster 24 with button Left.[0m
+[90m11:51:58.600 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m11:51:58.600 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m11:51:59.535 [D] cluscatter:368       Click on cluster 0 with button Left.[0m
+[90m11:51:59.535 [D] cluscatter:368       Click on cluster 0 with button Left.[0m
+[90m11:51:59.536 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m11:51:59.536 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m11:52:01.083 [D] cluscatter:368       Click on cluster 5 with button Left.[0m
+[90m11:52:01.083 [D] cluscatter:368       Click on cluster 5 with button Left.[0m
+[90m11:52:01.088 [D] supervisor:813       Clusters selected: [5] (4)[0m
+[90m11:52:01.088 [D] supervisor:813       Clusters selected: [5] (4)[0m
+[90m11:52:01.813 [D] cluscatter:368       Click on cluster 19 with button Left.[0m
+[90m11:52:01.813 [D] cluscatter:368       Click on cluster 19 with button Left.[0m
+[90m11:52:01.816 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m11:52:01.816 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m11:52:03.248 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:52:03.248 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:52:16.015 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m11:52:16.015 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m11:52:16.791 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m11:52:16.791 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m11:52:20.615 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m11:52:20.615 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:02:50.542 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m12:02:50.542 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m12:02:50.543 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:02:50.543 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:02:51.685 [D] cluscatter:368       Click on cluster 27 with button Left.[0m
+[90m12:02:51.685 [D] cluscatter:368       Click on cluster 27 with button Left.[0m
+[90m12:02:51.687 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:02:51.687 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:02:55.242 [D] cluscatter:368       Click on cluster 0 with button Left.[0m
+[90m12:02:55.242 [D] cluscatter:368       Click on cluster 0 with button Left.[0m
+[90m12:02:55.247 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m12:02:55.247 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m12:02:56.726 [D] cluscatter:368       Click on cluster 9 with button Left.[0m
+[90m12:02:56.726 [D] cluscatter:368       Click on cluster 9 with button Left.[0m
+[90m12:02:56.727 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:02:56.727 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:03:32.534 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:03:32.534 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[33m12:05:02.497 [W] gui:671              Could not create view FeatureView.[0m
+[33m12:05:02.497 [W] gui:671              Could not create view FeatureView.[0m
+[90m12:05:24.975 [D] base:273             Close view ISIView.[0m
+[90m12:05:24.975 [D] base:273             Close view ISIView.[0m
+[90m12:05:24.976 [D] state:171            Update GUI state for ISIView[0m
+[90m12:05:24.976 [D] state:171            Update GUI state for ISIView[0m
+[90m12:05:25.862 [D] base:273             Close view CorrelogramView.[0m
+[90m12:05:25.862 [D] base:273             Close view CorrelogramView.[0m
+[90m12:05:25.862 [D] state:171            Update GUI state for CorrelogramView[0m
+[90m12:05:25.862 [D] state:171            Update GUI state for CorrelogramView[0m
+[33m12:05:30.945 [W] gui:671              Could not create view FeatureView.[0m
+[33m12:05:30.945 [W] gui:671              Could not create view FeatureView.[0m
+[90m12:05:41.171 [D] base:273             Close view AmplitudeView.[0m
+[90m12:05:41.171 [D] base:273             Close view AmplitudeView.[0m
+[90m12:05:41.171 [D] state:171            Update GUI state for AmplitudeView[0m
+[90m12:05:41.171 [D] state:171            Update GUI state for AmplitudeView[0m
+[90m12:06:01.373 [D] gui:718              Add view ClusterScatterView to GUI.[0m
+[90m12:06:01.373 [D] gui:718              Add view ClusterScatterView to GUI.[0m
+[90m12:06:01.373 [D] base:334             Set state for ClusterScatterView (1).[0m
+[90m12:06:01.373 [D] base:334             Set state for ClusterScatterView (1).[0m
+[90m12:06:01.384 [D] base:1623            Adding default color schemes to ClusterScatterView (1).[0m
+[90m12:06:01.384 [D] base:1623            Adding default color schemes to ClusterScatterView (1).[0m
+[90m12:06:07.359 [D] base:273             Close view ClusterScatterView (1).[0m
+[90m12:06:07.359 [D] base:273             Close view ClusterScatterView (1).[0m
+[90m12:06:07.359 [D] state:171            Update GUI state for ClusterScatterView (1)[0m
+[90m12:06:07.359 [D] state:171            Update GUI state for ClusterScatterView (1)[0m
+[90m12:06:11.562 [D] gui:718              Add view FiringRateView to GUI.[0m
+[90m12:06:11.562 [D] gui:718              Add view FiringRateView to GUI.[0m
+[90m12:06:11.562 [D] base:334             Set state for FiringRateView (1).[0m
+[90m12:06:11.562 [D] base:334             Set state for FiringRateView (1).[0m
+[33m12:06:15.825 [W] gui:671              Could not create view FeatureView.[0m
+[33m12:06:15.825 [W] gui:671              Could not create view FeatureView.[0m
+[90m12:06:17.551 [D] base:273             Close view FiringRateView (1).[0m
+[90m12:06:17.551 [D] base:273             Close view FiringRateView (1).[0m
+[90m12:06:17.551 [D] state:171            Update GUI state for FiringRateView (1)[0m
+[90m12:06:17.551 [D] state:171            Update GUI state for FiringRateView (1)[0m
+[33m12:13:21.312 [W] gui:671              Could not create view FeatureView.[0m
+[33m12:13:21.312 [W] gui:671              Could not create view FeatureView.[0m
+[90m12:14:54.134 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m12:14:54.134 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m12:15:21.502 [D] base:309             Disable auto update for WaveformView.[0m
+[90m12:15:21.502 [D] base:309             Disable auto update for WaveformView.[0m
+[90m12:15:22.246 [D] base:309             Enable auto update for WaveformView.[0m
+[90m12:15:22.246 [D] base:309             Enable auto update for WaveformView.[0m
+[90m12:15:26.120 [D] base:309             Disable auto update for WaveformView.[0m
+[90m12:15:26.120 [D] base:309             Disable auto update for WaveformView.[0m
+[90m12:15:44.719 [D] actions:67           Prompting arguments for change_n_spikes_waveforms[0m
+[90m12:15:44.719 [D] actions:67           Prompting arguments for change_n_spikes_waveforms[0m
+[90m12:15:57.063 [D] actions:67           Prompting arguments for change_n_spikes_waveforms[0m
+[90m12:15:57.063 [D] actions:67           Prompting arguments for change_n_spikes_waveforms[0m
+[90m12:16:17.342 [D] actions:67           Prompting arguments for change_n_spikes_waveforms[0m
+[90m12:16:17.342 [D] actions:67           Prompting arguments for change_n_spikes_waveforms[0m
+[90m12:16:21.846 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:16:21.846 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:16:22.918 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:16:22.918 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:16:25.478 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:25.478 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:25.942 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:16:25.942 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:16:26.350 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m12:16:26.350 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m12:16:26.766 [D] supervisor:813       Clusters selected: [25] (34)[0m
+[90m12:16:26.766 [D] supervisor:813       Clusters selected: [25] (34)[0m
+[90m12:16:27.797 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m12:16:27.797 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m12:16:27.798 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:27.798 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:29.358 [D] base:273             Close view WaveformView.[0m
+[90m12:16:29.358 [D] base:273             Close view WaveformView.[0m
+[90m12:16:29.358 [D] state:171            Update GUI state for WaveformView[0m
+[90m12:16:29.358 [D] state:171            Update GUI state for WaveformView[0m
+[90m12:16:33.229 [D] gui:718              Add view WaveformView to GUI.[0m
+[90m12:16:33.229 [D] gui:718              Add view WaveformView to GUI.[0m
+[90m12:16:33.229 [D] base:334             Set state for WaveformView.[0m
+[90m12:16:33.229 [D] base:334             Set state for WaveformView.[0m
+[90m12:16:41.974 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:16:41.974 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:16:43.149 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:16:43.149 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:16:46.502 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:46.502 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:50.053 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:16:50.053 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:16:53.974 [D] base:309             Enable auto update for WaveformView.[0m
+[90m12:16:53.974 [D] base:309             Enable auto update for WaveformView.[0m
+[90m12:16:55.422 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:55.422 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:55.982 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:16:55.982 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:16:56.614 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m12:16:56.614 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m12:16:58.157 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:16:58.157 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:17:28.870 [D] base:309             Disable auto update for WaveformView.[0m
+[90m12:17:28.870 [D] base:309             Disable auto update for WaveformView.[0m
+[90m12:17:29.342 [D] base:309             Enable auto update for WaveformView.[0m
+[90m12:17:29.342 [D] base:309             Enable auto update for WaveformView.[0m
+[90m12:22:11.821 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:22:11.821 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:22:13.021 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:22:13.021 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:22:14.598 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:22:14.598 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:22:17.009 [D] base:309             Disable auto update for AmplitudeView.[0m
+[90m12:22:17.009 [D] base:309             Disable auto update for AmplitudeView.[0m
+[90m12:22:17.982 [D] supervisor:813       Clusters selected: [34] (20)[0m
+[90m12:22:17.982 [D] supervisor:813       Clusters selected: [34] (20)[0m
+[90m12:22:18.606 [D] supervisor:813       Clusters selected: [12] (23)[0m
+[90m12:22:18.606 [D] supervisor:813       Clusters selected: [12] (23)[0m
+[90m12:22:30.318 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:22:30.318 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:22:31.782 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:22:31.782 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:22:33.653 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m12:22:33.653 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m12:22:34.589 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:22:34.589 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:22:36.005 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m12:22:36.005 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m12:22:39.333 [D] supervisor:813       Clusters selected: [32] (14)[0m
+[90m12:22:39.333 [D] supervisor:813       Clusters selected: [32] (14)[0m
+[90m12:22:40.245 [D] supervisor:813       Clusters selected: [6] (32)[0m
+[90m12:22:40.245 [D] supervisor:813       Clusters selected: [6] (32)[0m
+[90m12:22:46.965 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:22:46.965 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:23:01.213 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:23:01.213 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:23:01.837 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:23:01.837 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:23:02.862 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:23:02.862 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:23:15.717 [D] supervisor:813       Clusters selected: [12] (23)[0m
+[90m12:23:15.717 [D] supervisor:813       Clusters selected: [12] (23)[0m
+[90m12:23:16.197 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m12:23:16.197 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m12:23:16.605 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m12:23:16.605 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m12:23:17.208 [D] supervisor:835       Similar clusters selected: [0] (10)[0m
+[90m12:23:17.208 [D] supervisor:835       Similar clusters selected: [0] (10)[0m
+[90m12:23:18.204 [D] supervisor:835       Similar clusters selected: [1] (5)[0m
+[90m12:23:18.204 [D] supervisor:835       Similar clusters selected: [1] (5)[0m
+[90m12:23:20.805 [D] supervisor:835       Similar clusters selected: [0] (5)[0m
+[90m12:23:20.805 [D] supervisor:835       Similar clusters selected: [0] (5)[0m
+[90m12:23:23.989 [D] supervisor:813       Clusters selected: [4] (10)[0m
+[90m12:23:23.989 [D] supervisor:813       Clusters selected: [4] (10)[0m
+[90m12:23:26.589 [D] supervisor:813       Clusters selected: [4] (10)[0m
+[90m12:23:26.589 [D] supervisor:813       Clusters selected: [4] (10)[0m
+[90m12:23:27.165 [D] supervisor:813       Clusters selected: [10] (11)[0m
+[90m12:23:27.165 [D] supervisor:813       Clusters selected: [10] (11)[0m
+[90m12:23:29.245 [D] supervisor:813       Clusters selected: [4] (10)[0m
+[90m12:23:29.245 [D] supervisor:813       Clusters selected: [4] (10)[0m
+[90m12:23:33.973 [D] supervisor:813       Clusters selected: [30] (28)[0m
+[90m12:23:33.973 [D] supervisor:813       Clusters selected: [30] (28)[0m
+[90m12:23:37.292 [D] supervisor:813       Clusters selected: [8] (24)[0m
+[90m12:23:37.292 [D] supervisor:813       Clusters selected: [8] (24)[0m
+[90m12:23:38.413 [D] supervisor:813       Clusters selected: [24] (7)[0m
+[90m12:23:38.413 [D] supervisor:813       Clusters selected: [24] (7)[0m
+[90m12:23:40.181 [D] supervisor:813       Clusters selected: [31] (None)[0m
+[90m12:23:40.181 [D] supervisor:813       Clusters selected: [31] (None)[0m
+[90m12:23:40.701 [D] supervisor:813       Clusters selected: [4] (31)[0m
+[90m12:23:40.701 [D] supervisor:813       Clusters selected: [4] (31)[0m
+[90m12:23:41.134 [D] supervisor:813       Clusters selected: [6] (28)[0m
+[90m12:23:41.134 [D] supervisor:813       Clusters selected: [6] (28)[0m
+[90m12:23:41.637 [D] supervisor:813       Clusters selected: [21] (20)[0m
+[90m12:23:41.637 [D] supervisor:813       Clusters selected: [21] (20)[0m
+[90m12:23:43.661 [D] supervisor:813       Clusters selected: [8] (24)[0m
+[90m12:23:43.661 [D] supervisor:813       Clusters selected: [8] (24)[0m
+[90m12:24:32.725 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:24:32.725 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:25:23.966 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:25:23.966 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:25:27.909 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:25:27.909 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:25:30.517 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:25:30.517 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:25:33.165 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m12:25:33.165 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m12:25:34.901 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m12:25:34.901 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m12:25:35.629 [D] supervisor:813       Clusters selected: [25] (34)[0m
+[90m12:25:35.629 [D] supervisor:813       Clusters selected: [25] (34)[0m
+[90m12:25:36.469 [D] supervisor:813       Clusters selected: [34] (20)[0m
+[90m12:25:36.469 [D] supervisor:813       Clusters selected: [34] (20)[0m
+[90m12:25:37.085 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m12:25:37.085 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m12:25:37.813 [D] supervisor:813       Clusters selected: [10] (12)[0m
+[90m12:25:37.813 [D] supervisor:813       Clusters selected: [10] (12)[0m
+[90m12:25:41.229 [D] supervisor:813       Clusters selected: [14] (None)[0m
+[90m12:25:41.229 [D] supervisor:813       Clusters selected: [14] (None)[0m
+[90m12:25:43.389 [D] supervisor:813       Clusters selected: [32] (14)[0m
+[90m12:25:43.389 [D] supervisor:813       Clusters selected: [32] (14)[0m
+[90m12:25:44.830 [D] supervisor:813       Clusters selected: [6] (32)[0m
+[90m12:25:44.830 [D] supervisor:813       Clusters selected: [6] (32)[0m
+[90m12:25:47.709 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:25:47.709 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:25:51.525 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:25:51.525 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:25:52.565 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:25:52.565 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[31m12:27:05.427 [E] __init__:62          An error has occurred (ValueError): list.remove(x): x not in list
+Traceback (most recent call last):
+  File "c:\users\danie\anaconda3\envs\phy2\lib\site-packages\phy\gui\gui.py", line 137, in closeEvent
+    emit('close_dock_widget', self)
+  File "c:\users\danie\anaconda3\envs\phy2\lib\site-packages\phylib\utils\event.py", line 141, in emit
+    res.append(f(sender, *args, **kwargs))
+  File "c:\users\danie\anaconda3\envs\phy2\lib\site-packages\phy\gui\gui.py", line 738, in on_close_dock_widget
+    self._views.remove(view)
+ValueError: list.remove(x): x not in list
+[0m
+[31m12:27:05.427 [E] __init__:62          An error has occurred (ValueError): list.remove(x): x not in list
+Traceback (most recent call last):
+  File "c:\users\danie\anaconda3\envs\phy2\lib\site-packages\phy\gui\gui.py", line 137, in closeEvent
+    emit('close_dock_widget', self)
+  File "c:\users\danie\anaconda3\envs\phy2\lib\site-packages\phylib\utils\event.py", line 141, in emit
+    res.append(f(sender, *args, **kwargs))
+  File "c:\users\danie\anaconda3\envs\phy2\lib\site-packages\phy\gui\gui.py", line 738, in on_close_dock_widget
+    self._views.remove(view)
+ValueError: list.remove(x): x not in list
+[0m
+[90m12:27:12.352 [D] gui:718              Add view AmplitudeView to GUI.[0m
+[90m12:27:12.352 [D] gui:718              Add view AmplitudeView to GUI.[0m
+[90m12:27:12.352 [D] base:334             Set state for AmplitudeView.[0m
+[90m12:27:12.352 [D] base:334             Set state for AmplitudeView.[0m
+[90m12:27:27.509 [D] supervisor:813       Clusters selected: [25] (34)[0m
+[90m12:27:27.509 [D] supervisor:813       Clusters selected: [25] (34)[0m
+[90m12:27:28.589 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:27:28.589 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:27:30.709 [D] supervisor:813       Clusters selected: [31] (4)[0m
+[90m12:27:30.709 [D] supervisor:813       Clusters selected: [31] (4)[0m
+[90m12:27:39.069 [D] supervisor:813       Clusters selected: [4] (28)[0m
+[90m12:27:39.069 [D] supervisor:813       Clusters selected: [4] (28)[0m
+[90m12:27:51.877 [D] supervisor:813       Clusters selected: [28] (6)[0m
+[90m12:27:51.877 [D] supervisor:813       Clusters selected: [28] (6)[0m
+[90m12:27:54.133 [D] supervisor:813       Clusters selected: [6] (20)[0m
+[90m12:27:54.133 [D] supervisor:813       Clusters selected: [6] (20)[0m
+[90m12:27:56.373 [D] supervisor:813       Clusters selected: [20] (21)[0m
+[90m12:27:56.373 [D] supervisor:813       Clusters selected: [20] (21)[0m
+[90m12:28:00.325 [D] supervisor:813       Clusters selected: [31] (4)[0m
+[90m12:28:00.325 [D] supervisor:813       Clusters selected: [31] (4)[0m
+[90m12:28:13.141 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:28:13.141 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:29:19.869 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:29:19.869 [D] supervisor:813       Clusters selected: [27] (24)[0m
+[90m12:29:21.453 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:29:21.453 [D] supervisor:813       Clusters selected: [24] (9)[0m
+[90m12:29:22.893 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:29:22.893 [D] supervisor:813       Clusters selected: [9] (0)[0m
+[90m12:29:25.429 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m12:29:25.429 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m12:29:28.717 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m12:29:28.717 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m12:29:32.421 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m12:29:32.421 [D] supervisor:813       Clusters selected: [11] (25)[0m
+[90m12:29:34.341 [D] supervisor:813       Clusters selected: [25] (34)[0m
+[90m12:29:34.341 [D] supervisor:813       Clusters selected: [25] (34)[0m
+[90m12:29:38.605 [D] supervisor:813       Clusters selected: [34] (20)[0m
+[90m12:29:38.605 [D] supervisor:813       Clusters selected: [34] (20)[0m
+[90m12:29:42.117 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m12:29:42.117 [D] supervisor:813       Clusters selected: [20] (10)[0m
+[90m12:29:45.613 [D] supervisor:813       Clusters selected: [10] (12)[0m
+[90m12:29:45.613 [D] supervisor:813       Clusters selected: [10] (12)[0m
+[90m12:29:46.957 [D] supervisor:813       Clusters selected: [12] (23)[0m
+[90m12:29:46.957 [D] supervisor:813       Clusters selected: [12] (23)[0m
+[90m12:29:48.725 [D] supervisor:813       Clusters selected: [23] (8)[0m
+[90m12:29:48.725 [D] supervisor:813       Clusters selected: [23] (8)[0m
+[90m12:29:51.229 [D] supervisor:813       Clusters selected: [8] (33)[0m
+[90m12:29:51.229 [D] supervisor:813       Clusters selected: [8] (33)[0m
+[90m12:29:53.061 [D] supervisor:813       Clusters selected: [33] (2)[0m
+[90m12:29:53.061 [D] supervisor:813       Clusters selected: [33] (2)[0m
+[90m12:29:55.269 [D] supervisor:813       Clusters selected: [2] (1)[0m
+[90m12:29:55.269 [D] supervisor:813       Clusters selected: [2] (1)[0m
+[90m12:29:57.285 [D] supervisor:813       Clusters selected: [1] (29)[0m
+[90m12:29:57.285 [D] supervisor:813       Clusters selected: [1] (29)[0m
+[90m12:29:57.909 [D] supervisor:813       Clusters selected: [29] (18)[0m
+[90m12:29:57.909 [D] supervisor:813       Clusters selected: [29] (18)[0m
+[90m12:30:00.733 [D] supervisor:813       Clusters selected: [18] (28)[0m
+[90m12:30:00.733 [D] supervisor:813       Clusters selected: [18] (28)[0m
+[90m12:30:02.333 [D] supervisor:813       Clusters selected: [28] (13)[0m
+[90m12:30:02.333 [D] supervisor:813       Clusters selected: [28] (13)[0m
+[90m12:30:03.485 [D] supervisor:813       Clusters selected: [13] (3)[0m
+[90m12:30:03.485 [D] supervisor:813       Clusters selected: [13] (3)[0m
+[90m12:30:05.293 [D] supervisor:813       Clusters selected: [3] (16)[0m
+[90m12:30:05.293 [D] supervisor:813       Clusters selected: [3] (16)[0m
+[90m12:30:06.069 [D] supervisor:813       Clusters selected: [16] (17)[0m
+[90m12:30:06.069 [D] supervisor:813       Clusters selected: [16] (17)[0m
+[90m12:30:07.237 [D] supervisor:813       Clusters selected: [17] (30)[0m
+[90m12:30:07.237 [D] supervisor:813       Clusters selected: [17] (30)[0m
+[90m12:30:07.981 [D] supervisor:813       Clusters selected: [17] (30)[0m
+[90m12:30:07.981 [D] supervisor:813       Clusters selected: [17] (30)[0m
+[90m12:30:08.965 [D] supervisor:813       Clusters selected: [30] (22)[0m
+[90m12:30:08.965 [D] supervisor:813       Clusters selected: [30] (22)[0m
+[90m12:30:09.887 [D] supervisor:813       Clusters selected: [22] (31)[0m
+[90m12:30:09.887 [D] supervisor:813       Clusters selected: [22] (31)[0m
+[90m12:30:12.573 [D] supervisor:813       Clusters selected: [31] (5)[0m
+[90m12:30:12.573 [D] supervisor:813       Clusters selected: [31] (5)[0m
+[90m12:30:15.029 [D] supervisor:813       Clusters selected: [15] (6)[0m
+[90m12:30:15.029 [D] supervisor:813       Clusters selected: [15] (6)[0m
+[90m12:30:16.357 [D] supervisor:813       Clusters selected: [6] (32)[0m
+[90m12:30:16.357 [D] supervisor:813       Clusters selected: [6] (32)[0m
+[90m12:30:19.925 [D] supervisor:813       Clusters selected: [32] (14)[0m
+[90m12:30:19.925 [D] supervisor:813       Clusters selected: [32] (14)[0m
+[90m12:30:20.893 [D] supervisor:813       Clusters selected: [14] (None)[0m
+[90m12:30:20.893 [D] supervisor:813       Clusters selected: [14] (None)[0m
+[90m12:30:24.005 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m12:30:24.005 [D] supervisor:813       Clusters selected: [7] (27)[0m
+[90m14:09:32.527 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:09:32.527 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:09:34.991 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:09:34.991 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:09:37.111 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:09:37.111 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:09:38.839 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:09:38.839 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:09:39.543 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:09:39.543 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:09:40.127 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:09:40.127 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:09:41.519 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m14:09:41.519 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m14:09:42.303 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m14:09:42.303 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m14:09:44.335 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:09:44.335 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:09:47.671 [D] supervisor:835       Similar clusters selected: [33] (13)[0m
+[90m14:09:47.671 [D] supervisor:835       Similar clusters selected: [33] (13)[0m
+[90m14:09:48.391 [D] supervisor:835       Similar clusters selected: [13] (31)[0m
+[90m14:09:48.391 [D] supervisor:835       Similar clusters selected: [13] (31)[0m
+[90m14:09:48.967 [D] supervisor:835       Similar clusters selected: [31] (11)[0m
+[90m14:09:48.967 [D] supervisor:835       Similar clusters selected: [31] (11)[0m
+[90m14:09:49.751 [D] supervisor:835       Similar clusters selected: [33] (13)[0m
+[90m14:09:49.751 [D] supervisor:835       Similar clusters selected: [33] (13)[0m
+[90m14:09:51.391 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:09:51.391 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:09:56.519 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:09:56.519 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:09:57.399 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:09:57.399 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:09:58.615 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:09:58.615 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:09:59.791 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:09:59.791 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:10:02.695 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:10:02.695 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:10:05.175 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:10:05.175 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:10:10.295 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:10:10.295 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:10:11.895 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:10:11.895 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:10:12.383 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:10:12.383 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:10:13.103 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:10:13.103 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:10:14.047 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m14:10:14.047 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m14:10:14.711 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m14:10:14.711 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m14:10:15.887 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:10:15.887 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:02.663 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:11:02.663 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:11:03.391 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:11:03.391 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:11:03.935 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:11:03.935 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:11:04.687 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:04.687 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:12.167 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m14:11:12.167 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m14:11:12.175 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:12.175 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:13.576 [D] cluscatter:368       Click on cluster 19 with button Left.[0m
+[90m14:11:13.576 [D] cluscatter:368       Click on cluster 19 with button Left.[0m
+[90m14:11:13.583 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m14:11:13.583 [D] supervisor:813       Clusters selected: [19] (11)[0m
+[90m14:11:15.015 [D] cluscatter:368       Click on cluster 27 with button Left.[0m
+[90m14:11:15.015 [D] cluscatter:368       Click on cluster 27 with button Left.[0m
+[90m14:11:15.024 [D] supervisor:813       Clusters selected: [27] (18)[0m
+[90m14:11:15.024 [D] supervisor:813       Clusters selected: [27] (18)[0m
+[90m14:11:16.425 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m14:11:16.425 [D] cluscatter:368       Click on cluster 7 with button Left.[0m
+[90m14:11:16.432 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:16.432 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:16.926 [D] cluscatter:368       Click on cluster 24 with button Left.[0m
+[90m14:11:16.926 [D] cluscatter:368       Click on cluster 24 with button Left.[0m
+[90m14:11:16.927 [D] supervisor:813       Clusters selected: [24] (3)[0m
+[90m14:11:16.927 [D] supervisor:813       Clusters selected: [24] (3)[0m
+[90m14:11:17.542 [D] cluscatter:368       Click on cluster 9 with button Left.[0m
+[90m14:11:17.542 [D] cluscatter:368       Click on cluster 9 with button Left.[0m
+[90m14:11:17.552 [D] supervisor:813       Clusters selected: [9] (5)[0m
+[90m14:11:17.552 [D] supervisor:813       Clusters selected: [9] (5)[0m
+[90m14:11:18.156 [D] cluscatter:368       Click on cluster 2 with button Left.[0m
+[90m14:11:18.156 [D] cluscatter:368       Click on cluster 2 with button Left.[0m
+[90m14:11:18.159 [D] supervisor:813       Clusters selected: [2] (1)[0m
+[90m14:11:18.159 [D] supervisor:813       Clusters selected: [2] (1)[0m
+[90m14:11:18.574 [D] cluscatter:368       Click on cluster 0 with button Left.[0m
+[90m14:11:18.574 [D] cluscatter:368       Click on cluster 0 with button Left.[0m
+[90m14:11:18.584 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m14:11:18.584 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m14:11:20.007 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:20.007 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:21.047 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:11:21.047 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:11:22.343 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:22.343 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:22.991 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:11:22.991 [D] supervisor:813       Clusters selected: [33] (13)[0m
+[90m14:11:24.287 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:11:24.287 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:11:26.695 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:11:26.695 [D] supervisor:813       Clusters selected: [31] (0)[0m
+[90m14:11:29.055 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:11:29.055 [D] supervisor:813       Clusters selected: [13] (31)[0m
+[90m14:11:30.391 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m14:11:30.391 [D] supervisor:813       Clusters selected: [0] (19)[0m
+[90m14:11:32.927 [D] supervisor:813       Clusters selected: [7] (33)[0m
+[90m14:11:32.927 [D] supervisor:813       Clusters selected: [7] (33)[0m
