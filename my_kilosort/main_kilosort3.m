@@ -1,10 +1,10 @@
 %% you need to change most of the paths in this block
 
 addpath(genpath('C:\Users\danie\Documents\GitHub\Kilosort')) % path to kilosort folder
-addpath('C:\Users\danie\Documents\GitHub\npy-matlab') % for converting to Phy
-rootZ = 'C:\Users\danie\Documents\GitHub\Kilosort'; % the raw data binary file is in this folder
-rootH = 'D:\'; % path to temporary binary file (same size as data, should be on fast SSD)
-pathToYourConfigFile = 'C:\Users\danie\Documents\GitHub\Kilosort\my_kilosort'; % take from Github folder and put it somewhere else (together with the master_file)
+addpath('C:\Users\danis\Documents\GitHub\npy-matlab') % for converting to Phy
+rootZ = 'C:\Users\danis\OneDrive - Scuola Superiore Sant''Anna\MATLAB\LNE\Binary\1054-163634-phy'; % the raw data binary file is in this folder
+rootH = 'C:\Users\danis\OneDrive - Scuola Superiore Sant''Anna\MATLAB\LNE\Binary\1054-163634-phy'; % path to temporary binary file (same size as data, should be on fast SSD)
+pathToYourConfigFile = 'C:\Users\danis\Documents\GitHub\Kilosort\my_kilosort'; % take from Github folder and put it somewhere else (together with the master_file)
 chanMapFile = 'NeuronexusA4x8ChanMap.mat';
 
 ops.trange    = [0 Inf]; % time range to sort
